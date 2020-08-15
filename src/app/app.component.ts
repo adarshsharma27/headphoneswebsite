@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 AOS.init();
+declare const smoothscroll:any;
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,4 +10,8 @@ AOS.init();
 })
 export class AppComponent {
   title = 'headphonse-app';
+  ngOnit(){
+    smoothscroll();
+
+  }
 }

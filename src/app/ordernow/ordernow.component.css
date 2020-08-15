@@ -1,0 +1,14 @@
+
+
+#order button.calc{
+    width: 100px;
+    margin:1.5px;
+}
+@media(max-width:576px){
+   h4{
+       text-align: center;
+   }
+.btn-custom{
+    margin: 0 auto;
+}
+}

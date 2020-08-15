@@ -1,0 +1,66 @@
+ footer .fab{
+    color: #fff;
+    background-image: linear-gradient(to right, #77B0FB 0%, #6FD8F5 99%);
+    box-shadow: 0 8px 8px -7px #6FD8F5;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    font-size: 1.8rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    transition:all 0.2s step-end;
+    cursor: pointer;
+}
+footer .fab:hover{
+    background-image: linear-gradient(120deg, #6FD8F5 20%, #77B0FB 80%);
+
+}
+.bg-custom{
+    background-color: #2B4C9F;
+}
+.bottom p{
+    color:#fff;
+    font-size: 1.1rem;
+    letter-spacing: 0.1px;
+    font-family: 'Acme',sans-serif;
+}
+.scroll-button{
+    position: fixed;
+    bottom:14px;
+    right:18px;
+    background-color:#6FD8F5;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition:all 0.2s ease-out;
+}
+.scroll-button:hover{
+    background-color: #68E4BC;
+    transform: scale(1.05);
+}
+.fa-angle-up {
+    color:#fff;
+    font-size:1.8rem;
+    
+}
+
+@media(max-width:576px){
+    .bottom p{
+        font-size: 15.5px;
+       
+    }
+  footer  .fab{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        font-size: 1.4rem;
+}
+.btn-custom{
+    margin: 0 auto;
+}
+}

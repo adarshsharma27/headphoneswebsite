@@ -1,0 +1,102 @@
+.card-service{
+    width:100%;
+    height:380px;
+    background-color: #ffff;
+     border-radius:10px;
+     display: flex;
+     justify-content: space-evenly;
+     align-content: center;
+     box-shadow:0px 12px 15px -12px #9DA2AD;
+     cursor: pointer;
+     transition: all 0.5s ease;
+     position: relative;
+     text-align: center;
+     overflow: hidden;
+     margin: 15px auto;
+   padding: 2rem;
+  
+   
+ }
+ .card-service:hover{
+    box-shadow:0px 0px 25px 5px rgba(0,0,0,0.1);
+    transition-delay: 0.5s;
+ }
+ 
+ 
+   main{
+       width: 100%;
+       height: 100%;
+       position: absolute;
+       left:0;
+       top:38%;
+       transition: all 0.8s ease;
+       padding:0px 20px;
+       
+   }
+.card-service h2{
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    color:#4c505d;
+    font-family: 'Acme',sans-serif;
+}
+.card-service p{
+    font-size: 1rem;
+    letter-spacing: 0.1px;
+    line-height: 2rem;
+    color:hsl(201, 11%, 66%);
+    font-family: 'Acme',sans-serif;
+   
+}
+ .icon{
+
+    width:90px;
+    height:90px;
+    font-size:2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.8s ease;
+
+
+ }
+ .card-service::before{
+     content:'';
+     position: absolute;
+     width:0%;
+     height:3px;
+   background-image:linear-gradient(to right, #77B0FB 0%, #6FD8F5 99%);
+     bottom: 0;
+     left:50%;
+     border-radius:20px;
+     transition:all 0.5s ease-in;
+
+ }
+ 
+ .card-service:hover::before{
+    left:0;
+     width:100%;
+    
+
+ }
+ 
+ .icon-1{
+    border-radius: 100% 81% 97% 73% / 100% 100% 52% 79% ;
+    color:#4F82F5;
+    background-color: #F3F7FF;
+ }
+ .icon-2{
+     border-radius: 100% 54% 55% 100% / 78% 83% 100% 100%;
+     color:#D958D0;
+     background-color: #F9F3FF;
+    }
+    .icon-3{
+       border-radius: 100% 83% 64% 100% / 100% 100% 53% 46% ;
+       color:#EC8C8C;
+       background-color:#FFF2F2;
+    }
+    .icon-4{
+       border-radius: 100% 60% 73% 86% / 75% 50% 100% 100% ;
+       color:#43A779;
+       background-color:#E9FBF2;
+    }
+ 

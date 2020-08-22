@@ -29,8 +29,10 @@
               
             ],
             "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
               "./node_modules/aos/dist/aos.js",
-              "src/assets/scroll.js"
+              "src/assets/js/scroll.js",
+              "src/assets/js/javascript.js"
             ]
           },
           "configurations": {

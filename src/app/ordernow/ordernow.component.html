@@ -18,10 +18,10 @@
                   <option>3</option>
                   <option>4</option>
                 </select>
-              
-              <button  class="btn btn-custom calc  my-3 " onclick="dec()"><i class="fa fa-minus"></i></button>
-              <button class="btn btn-custom calc  my-3 " style="font-weight:bold" id="sum">0</button>
-              <button  class="btn btn-custom calc  my-3 " onclick="inc()"><i class="fa fa-plus"></i></button>
+
+              <button  class="btn btn-custom calc  my-3 " (click)="dec()"><i class="fa fa-minus"></i></button>
+              <button class="btn btn-custom calc  my-3 " style="font-weight:bold" id="sum">{{ numberValue }}</button>
+              <button  class="btn btn-custom calc  my-3 " (click)="inc()"><i class="fa fa-plus"></i></button>
           </div>
            <button class=" btn btn-custom  my-3 ">Buy Now</button>
            

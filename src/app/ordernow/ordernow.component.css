@@ -4,6 +4,9 @@
     width: 100px;
     margin:1.5px;
 }
+#order .row{
+    overflow-x: hidden;
+}
 @media(max-width:576px){
    h4{
        text-align: center;

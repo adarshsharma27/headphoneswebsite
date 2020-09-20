@@ -18,12 +18,7 @@ export class OrdernowComponent implements OnInit {
  } 
  
  dec(){
-//   let decs= document.getElementById("sum").innerHTML;
-//   console.log(decs);
-// //  ngIf(decs>0)
-//   //  decs--;
-//   document.getElementById("sum").innerHTML=decs;
- 
+
 
 if(this.numberValue === 0){
   this.numberValue = 0;
